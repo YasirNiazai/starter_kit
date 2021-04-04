@@ -14,7 +14,7 @@ contract('Color',(accounts) => {
     describe('deployment',async() => {
         it('deploys Successfully',async()=>{
 
-            contract = await Color.deployed()
+            contract = await Color.deployed();
             const address = contract.address
             // console.log(networks)
             console.log(address)
